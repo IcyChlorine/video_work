@@ -1,6 +1,9 @@
 from manimlib import *
 from manimhub import *
 
+# OVERWRITE output path folder name from "video" to "../footage"
+# for convenience in later video editing.
+# This can't be done by passing arguments, as folder name is not configurable.i
 def set_output_path(file_writer):
 	out_dir = file_writer.output_directory or ""
 	scene_name = file_writer.file_name or file_writer.get_default_scene_name()
