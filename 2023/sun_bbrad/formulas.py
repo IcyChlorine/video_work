@@ -3,6 +3,8 @@ from manimhub import *
 import os, sys; sys.path.append(os.path.dirname(__file__))
 from set_output_path import set_output_path
 
+# Maxwell's Equation Group Scene.
+
 class ElectricFieldFormula(StarskyScene):
 	def __init__(self, *args, **kwargs):
 		super().__init__(*args, **kwargs)
